@@ -8,13 +8,13 @@
     <title>RayyanTech Dashboard || Al-Furqan Institute</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/media/image/favicon.png"/>
+    <link rel="shortcut icon" href="<?=base_url('assets/media/image/favicon.png"/>
 
     <!-- Plugin styles -->
     <link rel="stylesheet" href="vendors/bundle.css" type="text/css">
 
     <!-- App styles -->
-    <link rel="stylesheet" href="assets/css/app.min.css" type="text/css">
+    <link rel="stylesheet" href="<?=base_url('assets/css/app.min.css" type="text/css">
 </head>
 <body class="form-membership">
 
@@ -29,7 +29,7 @@
 
 <!-- logo -->
 <div id="logo">
-    <img src="assets/media/image/dark-logo.png" alt="image">
+    <img src="<?=base_url('assets/media/image/dark-logo.png" alt="image">
 </div>
 <!-- ./ logo -->
 
@@ -44,7 +44,7 @@
 <script src="vendors/bundle.js"></script>
 
 <!-- App scripts -->
-<script src="assets/js/app.min.js"></script>
+<script src="<?=base_url('assets/js/app.min.js"></script>
 </body>
 
 </html>
